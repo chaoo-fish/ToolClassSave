@@ -1,0 +1,16 @@
+spring:
+  redis:
+    host: 192.168.33.135
+    port: 6379
+    password:
+    database: 0
+    timeout: 180000
+    lettuce:
+      pool:
+        enabled: true
+        # 最大的活动数
+        max-active: 8
+        # 最大空闲数
+        max-idle: 5
+        # 最大阻塞等待时间,如果为-1表示没有限制
+        max-wait: -1
