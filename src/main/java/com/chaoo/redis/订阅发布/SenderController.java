@@ -1,4 +1,4 @@
-package com.chaoo.redis;
+package com.chaoo.redis.订阅发布;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;

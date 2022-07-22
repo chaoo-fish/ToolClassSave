@@ -1,5 +1,6 @@
-package com.chaoo.redis;
+package com.chaoo.redis.config;
 
+import com.chaoo.redis.订阅发布.Receiver;
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.databind.ObjectMapper;

@@ -1,5 +1,5 @@
 
-package com.chaoo.redis;
+package com.chaoo.redis.订阅发布;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
