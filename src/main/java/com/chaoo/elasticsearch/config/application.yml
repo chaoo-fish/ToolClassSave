@@ -1,0 +1,5 @@
+spring:
+  elasticsearch:
+    uris: 192.168.33.137 # url
+    port: 9200
+    connection-timeout: 5s # 链接延迟
